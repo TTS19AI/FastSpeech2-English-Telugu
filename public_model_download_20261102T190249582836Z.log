@@ -1,46 +1,0 @@
-Collecting gdown==5.2.2
-  Downloading gdown-5.2.2-py3-none-any.whl.metadata (5.8 kB)
-Collecting beautifulsoup4 (from gdown==5.2.2)
-  Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
-Requirement already satisfied: filelock in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from gdown==5.2.2) (4.2.4)
-Requirement already satisfied: requests[socks] in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from gdown==5.2.2) (2.34.2)
-Requirement already satisfied: tqdm in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from gdown==5.2.2) (4.67.3)
-Collecting soupsieve>=1.6.1 (from beautifulsoup4->gdown==5.2.2)
-  Downloading soupsieve-3.0.4-py3-none-any.whl.metadata (4.4 kB)
-Requirement already satisfied: typing-extensions>=4.0.0 in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from beautifulsoup4->gdown==5.2.2) (4.16.0)
-Requirement already satisfied: charset_normalizer<4,>=2 in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from requests[socks]->gdown==5.2.2) (3.5.2)
-Requirement already satisfied: idna<4,>=2.5 in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from requests[socks]->gdown==5.2.2) (3.20)
-Requirement already satisfied: urllib3<3,>=1.26 in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from requests[socks]->gdown==5.2.2) (2.8.0)
-Requirement already satisfied: certifi>=2023.5.7 in ./fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages (from requests[socks]->gdown==5.2.2) (2026.10.23)
-Collecting PySocks!=1.5.7,>=1.5.6 (from requests[socks]->gdown==5.2.2)
-  Downloading PySocks-1.7.1-py3-none-any.whl.metadata (13 kB)
-Downloading gdown-5.2.2-py3-none-any.whl (18 kB)
-Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
-Downloading soupsieve-3.0.4-py3-none-any.whl (42 kB)
-Downloading PySocks-1.7.1-py3-none-any.whl (16 kB)
-Installing collected packages: soupsieve, PySocks, beautifulsoup4, gdown
-
-Successfully installed PySocks-1.7.1 beautifulsoup4-4.15.0 gdown-5.2.2 soupsieve-3.0.4
-Retrieving folder contents
-Retrieving folder contents completed
-Building directory structure
-Building directory structure completed
-Downloading...
-From (original): https://drive.google.com/uc?id=1EuKBcCV2EnqaqNX2JLS3alqIW-4TUeul
-From (redirected): https://drive.google.com/uc?id=1EuKBcCV2EnqaqNX2JLS3alqIW-4TUeul&confirm=t&uuid=a8710361-cd4e-48b0-b84e-b983efdfa50b
-To: /content/fastspeech2_clean_repro_20261102T185738183401Z/public_models_20261102T190249582836Z/8000.pth.tar
-Processing file 1EuKBcCV2EnqaqNX2JLS3alqIW-4TUeul 8000.pth.tar
-Processing file 1e0UnPQJ1um0PB-rH4enXCqk3A4t0mCau 12000.pth.tar
-Processing file 1HstwQKkdYDk1DT8Gr8s09xCeVXpBWaYS g_02500000
-  0%|          | 0.00/418M [00:00<?, ?B/s]  1%|          | 2.10M/418M [00:00<00:21, 19.8MB/s]  4%|▍         | 17.8M/418M [00:00<00:04, 97.3MB/s]  8%|▊         | 32.0M/418M [00:00<00:03, 116MB/s]  12%|█▏        | 50.3M/418M [00:00<00:02, 139MB/s] 16%|█▋        | 68.7M/418M [00:00<00:02, 154MB/s] 21%|██        | 86.5M/418M [00:00<00:02, 161MB/s] 25%|██▍       | 104M/418M [00:00<00:01, 163MB/s]  29%|██▉       | 123M/418M [00:00<00:01, 170MB/s] 34%|███▎      | 141M/418M [00:00<00:01, 143MB/s] 38%|███▊      | 161M/418M [00:01<00:01, 158MB/s] 42%|████▏     | 178M/418M [00:01<00:01, 151MB/s] 47%|████▋     | 196M/418M [00:01<00:01, 157MB/s] 51%|█████     | 212M/418M [00:01<00:01, 154MB/s] 54%|█████▍    | 228M/418M [00:01<00:01, 147MB/s] 59%|█████▉    | 247M/418M [00:01<00:01, 158MB/s] 64%|██████▎   | 266M/418M [00:01<00:00, 164MB/s] 68%|██████▊   | 285M/418M [00:01<00:00, 167MB/s] 72%|███████▏  | 303M/418M [00:01<00:00, 170MB/s] 76%|███████▋  | 320M/418M [00:02<00:00, 169MB/s] 81%|████████  | 338M/418M [00:02<00:00, 172MB/s] 85%|████████▍ | 355M/418M [00:02<00:00, 167MB/s] 89%|████████▉ | 374M/418M [00:02<00:00, 173MB/s] 94%|█████████▎| 392M/418M [00:02<00:00, 172MB/s] 98%|█████████▊| 409M/418M [00:02<00:00, 172MB/s]100%|██████████| 418M/418M [00:02<00:00, 158MB/s]
-Downloading...
-From (original): https://drive.google.com/uc?id=1e0UnPQJ1um0PB-rH4enXCqk3A4t0mCau
-From (redirected): https://drive.google.com/uc?id=1e0UnPQJ1um0PB-rH4enXCqk3A4t0mCau&confirm=t&uuid=2024a48e-9222-4d49-b353-abed5db2283f
-To: /content/fastspeech2_clean_repro_20261102T185738183401Z/public_models_20261102T190249582836Z/12000.pth.tar
-  0%|          | 0.00/418M [00:00<?, ?B/s]  0%|          | 1.05M/418M [00:00<00:46, 9.07MB/s]  3%|▎         | 11.5M/418M [00:00<00:06, 61.8MB/s]  4%|▍         | 18.4M/418M [00:02<01:08, 5.87MB/s]  7%|▋         | 30.9M/418M [00:02<00:31, 12.3MB/s] 12%|█▏        | 48.8M/418M [00:02<00:15, 24.2MB/s] 14%|█▍        | 59.8M/418M [00:02<00:11, 31.1MB/s] 18%|█▊        | 73.4M/418M [00:03<00:08, 42.9MB/s] 20%|██        | 84.9M/418M [00:03<00:06, 51.0MB/s] 23%|██▎       | 95.4M/418M [00:03<00:05, 54.6MB/s] 26%|██▋       | 111M/418M [00:03<00:04, 71.5MB/s]  29%|██▉       | 123M/418M [00:03<00:03, 81.7MB/s] 32%|███▏      | 135M/418M [00:03<00:03, 79.8MB/s] 35%|███▍      | 145M/418M [00:03<00:03, 83.1MB/s] 38%|███▊      | 158M/418M [00:03<00:02, 93.5MB/s] 41%|████      | 170M/418M [00:03<00:02, 98.7MB/s] 43%|████▎     | 181M/418M [00:04<00:02, 92.6MB/s] 46%|████▌     | 191M/418M [00:04<00:02, 90.5MB/s] 49%|████▊     | 203M/418M [00:04<00:02, 97.0MB/s] 51%|█████▏    | 215M/418M [00:04<00:01, 103MB/s]  55%|█████▍    | 229M/418M [00:04<00:01, 112MB/s] 60%|█████▉    | 250M/418M [00:04<00:01, 139MB/s] 63%|██████▎   | 265M/418M [00:04<00:01, 133MB/s] 67%|██████▋   | 278M/418M [00:04<00:01, 128MB/s] 70%|██████▉   | 293M/418M [00:05<00:00, 131MB/s] 73%|███████▎  | 306M/418M [00:05<00:00, 132MB/s] 78%|███████▊  | 325M/418M [00:05<00:00, 147MB/s] 81%|████████▏ | 341M/418M [00:05<00:00, 148MB/s] 85%|████████▌ | 356M/418M [00:05<00:00, 142MB/s] 89%|████████▊ | 371M/418M [00:05<00:00, 73.2MB/s] 93%|█████████▎| 390M/418M [00:05<00:00, 92.6MB/s] 96%|█████████▋| 403M/418M [00:06<00:00, 99.7MB/s]100%|█████████▉| 417M/418M [00:06<00:00, 109MB/s] 100%|██████████| 418M/418M [00:06<00:00, 67.7MB/s]
-Downloading...
-From: https://drive.google.com/uc?id=1HstwQKkdYDk1DT8Gr8s09xCeVXpBWaYS
-To: /content/fastspeech2_clean_repro_20261102T185738183401Z/public_models_20261102T190249582836Z/g_02500000
-  0%|          | 0.00/55.8M [00:00<?, ?B/s]  2%|▏         | 1.05M/55.8M [00:00<00:06, 8.95MB/s] 20%|█▉        | 11.0M/55.8M [00:00<00:00, 56.9MB/s] 42%|████▏     | 23.6M/55.8M [00:00<00:00, 86.0MB/s] 61%|██████    | 34.1M/55.8M [00:00<00:00, 93.0MB/s] 80%|███████▉  | 44.6M/55.8M [00:00<00:00, 74.1MB/s]100%|██████████| 55.8M/55.8M [00:00<00:00, 79.8MB/s]
-Download completed
-Downloaded files: 3
