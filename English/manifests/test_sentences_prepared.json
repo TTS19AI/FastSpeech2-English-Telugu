@@ -1,0 +1,88 @@
+{
+  "source": "English sentences preserved from the recorded assignment audit",
+  "sentences": [
+    {
+      "id": "E1",
+      "original_text": "The antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings.",
+      "synthesis_text": "The antidisestablishmentarianism movement gained considerable momentum during the parliamentary proceedings.",
+      "normalization_rules": [],
+      "pronunciation_overrides": [],
+      "tokenization_verified": false,
+      "audio_generated": false
+    },
+    {
+      "id": "E2a",
+      "original_text": "The orchestra's conduct during the ceremony was praised by the audience.",
+      "synthesis_text": "The orchestra's conduct during the ceremony was praised by the audience.",
+      "normalization_rules": [],
+      "pronunciation_overrides": [],
+      "tokenization_verified": false,
+      "audio_generated": false
+    },
+    {
+      "id": "E2b",
+      "original_text": "The researchers will conduct an experiment to evaluate the proposed method.",
+      "synthesis_text": "The researchers will conduct an experiment to evaluate the proposed method.",
+      "normalization_rules": [],
+      "pronunciation_overrides": [
+        {
+          "word": "conduct",
+          "phones": [
+            "K",
+            "AH0",
+            "N",
+            "D",
+            "AH1",
+            "K",
+            "T"
+          ],
+          "reason": "Verb after 'will'; use the dictionary's verb variant."
+        }
+      ],
+      "tokenization_verified": false,
+      "audio_generated": false
+    },
+    {
+      "id": "E3",
+      "original_text": "The rhyth  m of the orchestra changed unexpectedly.",
+      "synthesis_text": "The rhyth  m of the orchestra changed unexpectedly.",
+      "normalization_rules": [
+        {
+          "action": "preserve",
+          "text": "rhyth  m",
+          "reason": "Keep the supplied split spelling in the primary test. Do not silently replace it with 'rhythm'."
+        }
+      ],
+      "pronunciation_overrides": [],
+      "tokenization_verified": false,
+      "audio_generated": false
+    },
+    {
+      "id": "E4",
+      "original_text": "The meeting will start at 10:45 AM on 12 November 2026, so andaroo should arrive on time.",
+      "synthesis_text": "The meeting will start at ten forty five in the morning on the twelfth of November twenty twenty six, so andaroo should arrive on time.",
+      "normalization_rules": [
+        {
+          "action": "spoken_expansion",
+          "source": "10:45 AM",
+          "replacement": "ten forty five in the morning"
+        },
+        {
+          "action": "spoken_expansion",
+          "source": "12 November 2026",
+          "replacement": "the twelfth of November twenty twenty six"
+        },
+        {
+          "action": "preserve",
+          "text": "andaroo",
+          "reason": "Retain the code-mixed word. Its pronunciation requires separate review."
+        }
+      ],
+      "pronunciation_overrides": [],
+      "tokenization_verified": false,
+      "audio_generated": false
+    }
+  ],
+  "checkpoint_for_next_diagnostic": 6000,
+  "final_model_selected": false
+}

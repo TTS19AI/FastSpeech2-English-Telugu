@@ -1,0 +1,24 @@
+{
+  "isolated_environment": true,
+  "weights_source": "Anonymous public downloads; SHA-256 verified",
+  "packaged_source_used": true,
+  "original_results_overwritten": false,
+  "training_performed": false,
+  "new_audio_listening_reviewed": false,
+  "results_directory": "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T191127740761Z/project/Results",
+  "languages": {
+    "English": {
+      "checkpoint_step": 12000,
+      "generated_sentences": 5,
+      "log": "/content/drive/MyDrive/FastSpeech2_Assignment/submission_packages/FastSpeech2_submission_20261102T185418336395Z/reproducibility/clean_inference_english_20261102T191127740761Z.log",
+      "status": "PASSED"
+    },
+    "Telugu": {
+      "checkpoint_step": 8000,
+      "generated_sentences": 5,
+      "log": "/content/drive/MyDrive/FastSpeech2_Assignment/submission_packages/FastSpeech2_submission_20261102T185418336395Z/reproducibility/clean_inference_telugu_20261102T191127740761Z.log",
+      "status": "PASSED"
+    }
+  },
+  "status": "CLEAN_INFERENCE_PASSED"
+}

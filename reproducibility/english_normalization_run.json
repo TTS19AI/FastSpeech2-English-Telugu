@@ -1,0 +1,32 @@
+{
+  "output_directory": "/content/fastspeech2_features/english_processed",
+  "splits": {
+    "train": {
+      "clips": 3135,
+      "zero_duration_positions_set_to_zero": 113
+    },
+    "validation": {
+      "clips": 626,
+      "zero_duration_positions_set_to_zero": 19
+    }
+  },
+  "conditioning_groups": 115,
+  "statistics_and_bin_bounds_fit_split": "train",
+  "validation_values_clipped": false,
+  "zero_duration_normalized_value": 0.0,
+  "raw_arrays_modified": false,
+  "stats": {
+    "pitch": [
+      -1.9348562955856323,
+      8.661086082458496,
+      180.6565319818719,
+      60.012250183713505
+    ],
+    "energy": [
+      -1.06203293800354,
+      7.659586429595947,
+      28.53831431542833,
+      26.858434208910904
+    ]
+  }
+}

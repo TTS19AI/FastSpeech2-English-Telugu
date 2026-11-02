@@ -1,0 +1,206 @@
+{
+  "id": "T2a",
+  "original_text": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది.",
+  "synthesis_text": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది.",
+  "normalized_text": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది",
+  "normalization_rules": [
+    {
+      "action": "existing_training_normalization",
+      "details": "NFC; punctuation to spaces; collapse whitespace"
+    }
+  ],
+  "words": [
+    {
+      "word": "తాడుపై",
+      "ipa_phones": [
+        "t",
+        "aː",
+        "ɖ",
+        "u",
+        "p",
+        "aɪ"
+      ],
+      "unsupported_phones": []
+    },
+    {
+      "word": "అతని",
+      "ipa_phones": [
+        "a",
+        "t",
+        "a",
+        "n",
+        "i"
+      ],
+      "unsupported_phones": []
+    },
+    {
+      "word": "పట్టు",
+      "ipa_phones": [
+        "p",
+        "a",
+        "ʈ",
+        "ʈ",
+        "u"
+      ],
+      "unsupported_phones": []
+    },
+    {
+      "word": "చాలా",
+      "ipa_phones": [
+        "c",
+        "aː",
+        "l",
+        "aː"
+      ],
+      "unsupported_phones": []
+    },
+    {
+      "word": "బలంగా",
+      "ipa_phones": [
+        "b",
+        "a",
+        "l",
+        "a",
+        "n",
+        "ɡ",
+        "aː"
+      ],
+      "unsupported_phones": []
+    },
+    {
+      "word": "ఉంది",
+      "ipa_phones": [
+        "u",
+        "n",
+        "d",
+        "i"
+      ],
+      "unsupported_phones": []
+    }
+  ],
+  "ipa_phones": [
+    "t",
+    "aː",
+    "ɖ",
+    "u",
+    "p",
+    "aɪ",
+    "a",
+    "t",
+    "a",
+    "n",
+    "i",
+    "p",
+    "a",
+    "ʈ",
+    "ʈ",
+    "u",
+    "c",
+    "aː",
+    "l",
+    "aː",
+    "b",
+    "a",
+    "l",
+    "a",
+    "n",
+    "ɡ",
+    "aː",
+    "u",
+    "n",
+    "d",
+    "i"
+  ],
+  "model_phones": [
+    "TEBB",
+    "TEAD",
+    "TEBG",
+    "TEBD",
+    "TEAX",
+    "TEAB",
+    "TEAA",
+    "TEBB",
+    "TEAA",
+    "TEAU",
+    "TEAN",
+    "TEAX",
+    "TEAA",
+    "TEBP",
+    "TEBP",
+    "TEBD",
+    "TEAG",
+    "TEAD",
+    "TEAS",
+    "TEAD",
+    "TEAE",
+    "TEAA",
+    "TEAS",
+    "TEAA",
+    "TEAU",
+    "TEBK",
+    "TEAD",
+    "TEBD",
+    "TEAU",
+    "TEAI",
+    "TEAN"
+  ],
+  "unsupported": [],
+  "phone_coverage": "PASSED",
+  "pronunciation_accuracy_verified": false,
+  "audio_generated": false,
+  "token_ids": [
+    387,
+    363,
+    392,
+    389,
+    383,
+    361,
+    360,
+    387,
+    360,
+    380,
+    373,
+    383,
+    360,
+    401,
+    401,
+    389,
+    366,
+    363,
+    378,
+    363,
+    364,
+    360,
+    378,
+    360,
+    380,
+    396,
+    363,
+    389,
+    380,
+    368,
+    373
+  ],
+  "token_count": 31,
+  "tokenization_verified": true,
+  "checkpoint_step": 8000,
+  "checkpoint_sha256": "93fe938dbf91cabae46e26e2da6414d92a1571a8aa568f89521ad3487f2e4fa2",
+  "speaker": "telugu_female",
+  "speaker_id": 0,
+  "sample_rate": 22050,
+  "hop_length": 256,
+  "predicted_mel_frames": 203,
+  "duration_seconds": 2.3568253968253967,
+  "waveform_peak": 0.47969651222229004,
+  "wav_path": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/Telugu/test_generated_audios/T2a.wav",
+  "features": "Predicted phoneme-level variance-adaptor outputs",
+  "pitch_note": "Inverse-normalized F0 target representation; training used interpolation through unvoiced regions.",
+  "energy_note": "Raw STFT energy scale; not dB or physical intensity.",
+  "listening_review_complete": true,
+  "listening_observation": {
+    "source": "user",
+    "quality": "clear",
+    "sentence_completeness": "complete",
+    "individual_word_accuracy_scored": false
+  }
+}

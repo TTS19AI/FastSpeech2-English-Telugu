@@ -1,0 +1,24 @@
+beam: 20
+retry_beam: 80
+features:
+  type: mfcc
+  use_energy: false
+  use_pitch: false
+  frame_shift: 10
+  sample_frequency: 16000
+training:
+- monophone:
+    subset: 0
+    num_iterations: 40
+    max_gaussians: 1000
+    boost_silence: 1.0
+- triphone:
+    subset: 0
+    num_iterations: 35
+    num_leaves: 1000
+    max_gaussians: 5000
+- sat:
+    subset: 0
+    num_iterations: 35
+    num_leaves: 1000
+    max_gaussians: 5000
