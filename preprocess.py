@@ -56,7 +56,7 @@ def main():
 
     for row in tqdm(rows, desc=f"Extracting {args.split} raw features"):
         speaker = row["conditioning_group"]
-        basename = f"svarah_{row['index']:06d}"
+        basename = f"telugu_{row['index']:06d}"
         paths = {
             feature: out / feature / f"{speaker}-{feature}-{basename}.npy"
             for feature in ("mel", "pitch", "energy", "duration")

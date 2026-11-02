@@ -1,5 +1,5 @@
 
-"""Generate English speech and save traceable variance-adaptor predictions."""
+"""Generate Telugu speech and save traceable variance-adaptor predictions."""
 from pathlib import Path
 from types import SimpleNamespace
 import argparse
@@ -23,10 +23,10 @@ def sha256(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--ids", nargs="+", default=["E1", "E2a", "E2b", "E3", "E4"])
-    parser.add_argument("--speaker", default='proxy_086')
+    parser.add_argument("--ids", nargs="+", default=["T1", "T2a", "T2b", "T3", "T4"])
+    parser.add_argument("--speaker", default="telugu_female")
     parser.add_argument("--device", choices=["cpu", "cuda"], default="cuda")
-    parser.add_argument("--repo", default="/content/FastSpeech2_reference")
+    parser.add_argument("--repo", default="/content/FastSpeech2_telugu")
     args = parser.parse_args()
 
     project = Path(__file__).resolve().parent.parent
@@ -39,7 +39,7 @@ def main():
 
     configs = tuple(
         yaml.safe_load(
-            (project / "English/config" / name).read_text(encoding="utf-8")
+            (project / "Telugu/config" / name).read_text(encoding="utf-8")
         )
         for name in ("preprocess.yaml", "model.yaml", "train.yaml")
     )
@@ -57,7 +57,7 @@ def main():
     selection = json.loads(
         (project / "reproducibility/selected_checkpoints.json")
         .read_text(encoding="utf-8")
-    )["English"]
+    )["Telugu"]
     step = selection["step"]
     checkpoint = Path(train["path"]["ckpt_path"]) / f"{step}.pth.tar"
     if checkpoint.resolve() != Path(selection["checkpoint"]).resolve():
@@ -67,14 +67,14 @@ def main():
         raise RuntimeError("Selected checkpoint hash mismatch.")
 
     entries = json.loads(
-        (project / "English/manifests/test_sentences_tokenized.json")
+        (project / "Telugu/manifests/test_sentences_tokenized.json")
         .read_text(encoding="utf-8")
     )["sentences"]
     by_id = {entry["id"]: entry for entry in entries}
     if len(args.ids) != len(set(args.ids)) or any(i not in by_id for i in args.ids):
         raise ValueError("Unknown or duplicate sentence IDs.")
 
-    output = project / "Results/English"
+    output = project / "Results/Telugu"
     audio_dir = output / "test_generated_audios"
     feature_dir = output / "variance_adaptor_predictions"
     audio_dir.mkdir(parents=True, exist_ok=True)
@@ -100,7 +100,7 @@ def main():
 
     for sentence_id in args.ids:
         entry = by_id[sentence_id]
-        phones = entry["phones"]
+        phones = entry["model_phones"]
         encoded = text_to_sequence(
             "{" + " ".join(phones) + "}",
             preprocess["preprocessing"]["text"]["text_cleaners"],

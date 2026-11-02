@@ -16,14 +16,14 @@ def main():
     records = project / "reproducibility"
 
     fit = json.loads(
-        (records / "english_training_normalization_statistics.json")
+        (records / "telugu_training_normalization_statistics.json")
         .read_text(encoding="utf-8")
     )
     if fit["fit_split"] != "train":
         raise ValueError("Expected training-only statistics.")
 
     raw = Path(config["path"]["preprocessed_path"])
-    output = raw.parent / "english_processed"
+    output = raw.parent / "telugu_processed"
     if output.resolve() == raw.resolve():
         raise ValueError("Processed output must differ from raw input.")
 
@@ -34,7 +34,7 @@ def main():
                 json.loads(line) for line in f if line.strip()
             ]
 
-    if len(manifests["train"]) != 3135 or len(manifests["validation"]) != 626:
+    if len(manifests["train"]) != 1877 or len(manifests["validation"]) != 357:
         raise ValueError("Unexpected extracted counts.")
 
     speakers = {
@@ -63,7 +63,7 @@ def main():
 
         for row in rows:
             speaker = row["conditioning_group"]
-            basename = f"svarah_{row['index']:06d}"
+            basename = f"telugu_{row['index']:06d}"
 
             def path(feature, root):
                 return root / feature / f"{speaker}-{feature}-{basename}.npy"
@@ -151,11 +151,11 @@ def main():
         "raw_arrays_modified": False,
         "stats": stats_json,
     }
-    (records / "english_normalization_run.json").write_text(
+    (records / "telugu_normalization_run.json").write_text(
         json.dumps(report, indent=2), encoding="utf-8"
     )
     print(json.dumps(report, indent=2))
-    print("English normalization and metadata creation: PASSED")
+    print("Telugu normalization and metadata creation: PASSED")
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,5 @@
 
-"""Run the reference FastSpeech 2 trainer with English project configs."""
+"""Run the reference FastSpeech 2 trainer with Telugu project configs."""
 from pathlib import Path
 import argparse
 import os
@@ -23,7 +23,7 @@ def main():
     args = parser.parse_args()
 
     project_dir = Path(__file__).resolve().parent
-    repository = Path("/content/FastSpeech2_reference")
+    repository = Path("/content/FastSpeech2_telugu")
     config_dir = project_dir / "config"
 
     paths = {
