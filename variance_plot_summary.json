@@ -2,440 +2,1580 @@
   "feature_source": "Model predictions, not features extracted from WAVs",
   "resolution": "phoneme",
   "plot_count": 15,
-  "visual_verification_complete": false,
   "sentences": [
     {
-      "id": "E1",
-      "checkpoint_step": 12000,
-      "checkpoint_sha256": "fbf365c7c63a670d51fbd2b4e95e2dccf4597d62827e463349603af694c0a910",
-      "phone_count": 86,
+      "id": "T1",
+      "checkpoint_step": 8000,
+      "checkpoint_sha256": "93fe938dbf91cabae46e26e2da6414d92a1571a8aa568f89521ad3487f2e4fa2",
+      "phone_count": 66,
       "zero_duration_phones": 0,
-      "total_predicted_seconds": 5.804988861083984,
+      "total_predicted_seconds": 4.841361045837402,
       "pitch_hz_range": [
-        138.76376342773438,
-        204.5369415283203
+        160.15811157226562,
+        313.70135498046875
       ],
       "energy_raw_range": [
-        8.467355728149414,
-        72.54692840576172
+        7.33690071105957,
+        102.93083190917969
       ],
-      "phone_labels": [
-        "DH",
-        "AH0",
-        "AE2",
-        "N",
-        "T",
-        "AY0",
-        "D",
-        "IH0",
-        "S",
-        "AH0",
-        "S",
-        "T",
-        "AE2",
-        "B",
-        "L",
-        "IH0",
-        "SH",
-        "M",
-        "AH0",
-        "N",
-        "T",
-        "EH1",
-        "R",
-        "IY0",
-        "AH0",
-        "N",
-        "IH0",
-        "Z",
-        "AH0",
-        "M",
-        "M",
-        "UW1",
-        "V",
-        "M",
-        "AH0",
-        "N",
-        "T",
-        "G",
-        "EY1",
-        "N",
-        "D",
-        "K",
-        "AH0",
-        "N",
-        "S",
-        "IH1",
-        "D",
-        "ER0",
-        "AH0",
-        "B",
-        "AH0",
-        "L",
-        "M",
-        "OW0",
-        "M",
-        "EH1",
-        "N",
-        "T",
-        "AH0",
-        "M",
-        "D",
-        "UH1",
-        "R",
-        "IH0",
-        "NG",
-        "DH",
-        "AH0",
-        "P",
-        "AA2",
-        "R",
-        "L",
-        "AH0",
-        "M",
-        "EH1",
-        "N",
-        "ER0",
-        "IY0",
-        "P",
-        "R",
-        "AH0",
-        "S",
-        "IY1",
-        "D",
-        "IH0",
-        "NG",
-        "Z"
+      "phone_label_mapping": [
+        {
+          "position": 1,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 2,
+          "model_token": "TEAP",
+          "ipa": "j"
+        },
+        {
+          "position": 3,
+          "model_token": "TEBE",
+          "ipa": "uː"
+        },
+        {
+          "position": 4,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 5,
+          "model_token": "TEAW",
+          "ipa": "oː"
+        },
+        {
+          "position": 6,
+          "model_token": "TEAY",
+          "ipa": "pʰ"
+        },
+        {
+          "position": 7,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 8,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 9,
+          "model_token": "TEAT",
+          "ipa": "m"
+        },
+        {
+          "position": 10,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 11,
+          "model_token": "TEAQ",
+          "ipa": "k"
+        },
+        {
+          "position": 12,
+          "model_token": "TEAW",
+          "ipa": "oː"
+        },
+        {
+          "position": 13,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 14,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 15,
+          "model_token": "TEBI",
+          "ipa": "ɟ"
+        },
+        {
+          "position": 16,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 17,
+          "model_token": "TEAQ",
+          "ipa": "k"
+        },
+        {
+          "position": 18,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 19,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 20,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 21,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 22,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 23,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 24,
+          "model_token": "TEBF",
+          "ipa": "ɕ"
+        },
+        {
+          "position": 25,
+          "model_token": "TEAW",
+          "ipa": "oː"
+        },
+        {
+          "position": 26,
+          "model_token": "TEAJ",
+          "ipa": "dʰ"
+        },
+        {
+          "position": 27,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 28,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 29,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 30,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 31,
+          "model_token": "TEAW",
+          "ipa": "oː"
+        },
+        {
+          "position": 32,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 33,
+          "model_token": "TEBE",
+          "ipa": "uː"
+        },
+        {
+          "position": 34,
+          "model_token": "TEBB",
+          "ipa": "t"
+        },
+        {
+          "position": 35,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 36,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 37,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 38,
+          "model_token": "TEAC",
+          "ipa": "aʊ"
+        },
+        {
+          "position": 39,
+          "model_token": "TEBO",
+          "ipa": "ʂ"
+        },
+        {
+          "position": 40,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 41,
+          "model_token": "TEAJ",
+          "ipa": "dʰ"
+        },
+        {
+          "position": 42,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 43,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 44,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 45,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 46,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 47,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 48,
+          "model_token": "TEAF",
+          "ipa": "bʰ"
+        },
+        {
+          "position": 49,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 50,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 51,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 52,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 53,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 54,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 55,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 56,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 57,
+          "model_token": "TEBF",
+          "ipa": "ɕ"
+        },
+        {
+          "position": 58,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 59,
+          "model_token": "TEAL",
+          "ipa": "eː"
+        },
+        {
+          "position": 60,
+          "model_token": "TEBO",
+          "ipa": "ʂ"
+        },
+        {
+          "position": 61,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 62,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 63,
+          "model_token": "TEAG",
+          "ipa": "c"
+        },
+        {
+          "position": 64,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 65,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 66,
+          "model_token": "TEBD",
+          "ipa": "u"
+        }
       ],
       "plots": {
-        "duration": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/duration/E1.png",
-        "pitch": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/pitch/E1.png",
-        "energy": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/energy/E1.png"
+        "duration": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/duration/T1.png",
+        "pitch": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/pitch/T1.png",
+        "energy": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/energy/T1.png"
       }
     },
     {
-      "id": "E2a",
-      "checkpoint_step": 12000,
-      "checkpoint_sha256": "fbf365c7c63a670d51fbd2b4e95e2dccf4597d62827e463349603af694c0a910",
-      "phone_count": 51,
+      "id": "T2a",
+      "checkpoint_step": 8000,
+      "checkpoint_sha256": "93fe938dbf91cabae46e26e2da6414d92a1571a8aa568f89521ad3487f2e4fa2",
+      "phone_count": 31,
       "zero_duration_phones": 0,
-      "total_predicted_seconds": 4.028662204742432,
+      "total_predicted_seconds": 2.356825351715088,
       "pitch_hz_range": [
-        150.87570190429688,
-        192.66197204589844
+        159.40206909179688,
+        302.5047912597656
       ],
       "energy_raw_range": [
-        8.12588119506836,
-        64.09346771240234
+        5.735149383544922,
+        86.82945251464844
       ],
-      "phone_labels": [
-        "DH",
-        "AH0",
-        "AO1",
-        "R",
-        "K",
-        "AH0",
-        "S",
-        "T",
-        "R",
-        "AH0",
-        "Z",
-        "K",
-        "AA1",
-        "N",
-        "D",
-        "AH0",
-        "K",
-        "T",
-        "D",
-        "UH1",
-        "R",
-        "IH0",
-        "NG",
-        "DH",
-        "AH0",
-        "S",
-        "EH1",
-        "R",
-        "AH0",
-        "M",
-        "OW2",
-        "N",
-        "IY0",
-        "W",
-        "AO1",
-        "Z",
-        "P",
-        "R",
-        "EY1",
-        "Z",
-        "D",
-        "B",
-        "AY1",
-        "DH",
-        "AH0",
-        "AA1",
-        "D",
-        "IY0",
-        "AH0",
-        "N",
-        "S"
+      "phone_label_mapping": [
+        {
+          "position": 1,
+          "model_token": "TEBB",
+          "ipa": "t"
+        },
+        {
+          "position": 2,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 3,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 4,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 5,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 6,
+          "model_token": "TEAB",
+          "ipa": "aɪ"
+        },
+        {
+          "position": 7,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 8,
+          "model_token": "TEBB",
+          "ipa": "t"
+        },
+        {
+          "position": 9,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 10,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 11,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 12,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 13,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 14,
+          "model_token": "TEBP",
+          "ipa": "ʈ"
+        },
+        {
+          "position": 15,
+          "model_token": "TEBP",
+          "ipa": "ʈ"
+        },
+        {
+          "position": 16,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 17,
+          "model_token": "TEAG",
+          "ipa": "c"
+        },
+        {
+          "position": 18,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 19,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 20,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 21,
+          "model_token": "TEAE",
+          "ipa": "b"
+        },
+        {
+          "position": 22,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 23,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 24,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 25,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 26,
+          "model_token": "TEBK",
+          "ipa": "ɡ"
+        },
+        {
+          "position": 27,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 28,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 29,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 30,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 31,
+          "model_token": "TEAN",
+          "ipa": "i"
+        }
       ],
       "plots": {
-        "duration": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/duration/E2a.png",
-        "pitch": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/pitch/E2a.png",
-        "energy": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/energy/E2a.png"
+        "duration": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/duration/T2a.png",
+        "pitch": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/pitch/T2a.png",
+        "energy": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/energy/T2a.png"
       }
     },
     {
-      "id": "E2b",
-      "checkpoint_step": 12000,
-      "checkpoint_sha256": "fbf365c7c63a670d51fbd2b4e95e2dccf4597d62827e463349603af694c0a910",
-      "phone_count": 54,
-      "zero_duration_phones": 0,
-      "total_predicted_seconds": 3.9590022563934326,
-      "pitch_hz_range": [
-        151.30743408203125,
-        197.08895874023438
-      ],
-      "energy_raw_range": [
-        9.01516342163086,
-        81.18656158447266
-      ],
-      "phone_labels": [
-        "DH",
-        "AH0",
-        "R",
-        "IY1",
-        "S",
-        "ER0",
-        "CH",
-        "ER0",
-        "Z",
-        "W",
-        "AH0",
-        "L",
-        "K",
-        "AH0",
-        "N",
-        "D",
-        "AH1",
-        "K",
-        "T",
-        "AE1",
-        "N",
-        "IH0",
-        "K",
-        "S",
-        "P",
-        "EH1",
-        "R",
-        "M",
-        "AH0",
-        "N",
-        "T",
-        "T",
-        "UW1",
-        "IY0",
-        "V",
-        "AE1",
-        "L",
-        "Y",
-        "UW0",
-        "EY2",
-        "T",
-        "DH",
-        "AH0",
-        "P",
-        "R",
-        "AH0",
-        "P",
-        "OW1",
-        "Z",
-        "D",
-        "M",
-        "EH1",
-        "TH",
-        "AH0"
-      ],
-      "plots": {
-        "duration": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/duration/E2b.png",
-        "pitch": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/pitch/E2b.png",
-        "energy": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/energy/E2b.png"
-      }
-    },
-    {
-      "id": "E3",
-      "checkpoint_step": 12000,
-      "checkpoint_sha256": "fbf365c7c63a670d51fbd2b4e95e2dccf4597d62827e463349603af694c0a910",
+      "id": "T2b",
+      "checkpoint_step": 8000,
+      "checkpoint_sha256": "93fe938dbf91cabae46e26e2da6414d92a1571a8aa568f89521ad3487f2e4fa2",
       "phone_count": 37,
       "zero_duration_phones": 0,
-      "total_predicted_seconds": 2.832834482192993,
+      "total_predicted_seconds": 2.6122446060180664,
       "pitch_hz_range": [
-        156.9432830810547,
-        235.74478149414062
+        156.96881103515625,
+        327.11419677734375
       ],
       "energy_raw_range": [
-        8.402610778808594,
-        88.26756286621094
+        6.751985549926758,
+        102.88316345214844
       ],
-      "phone_labels": [
-        "DH",
-        "AH0",
-        "R",
-        "AY1",
-        "DH",
-        "EH1",
-        "M",
-        "AH1",
-        "V",
-        "DH",
-        "AH0",
-        "AO1",
-        "R",
-        "K",
-        "AH0",
-        "S",
-        "T",
-        "R",
-        "AH0",
-        "CH",
-        "EY1",
-        "N",
-        "JH",
-        "D",
-        "AH2",
-        "N",
-        "IH0",
-        "K",
-        "S",
-        "P",
-        "EH1",
-        "K",
-        "T",
-        "IH0",
-        "D",
-        "L",
-        "IY0"
+      "phone_label_mapping": [
+        {
+          "position": 1,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 2,
+          "model_token": "TEAT",
+          "ipa": "m"
+        },
+        {
+          "position": 3,
+          "model_token": "TEAK",
+          "ipa": "e"
+        },
+        {
+          "position": 4,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 5,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 6,
+          "model_token": "TEBP",
+          "ipa": "ʈ"
+        },
+        {
+          "position": 7,
+          "model_token": "TEBP",
+          "ipa": "ʈ"
+        },
+        {
+          "position": 8,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 9,
+          "model_token": "TEAG",
+          "ipa": "c"
+        },
+        {
+          "position": 10,
+          "model_token": "TEAO",
+          "ipa": "iː"
+        },
+        {
+          "position": 11,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 12,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 13,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 14,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 15,
+          "model_token": "TEAJ",
+          "ipa": "dʰ"
+        },
+        {
+          "position": 16,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 17,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 18,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 19,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 20,
+          "model_token": "TEAG",
+          "ipa": "c"
+        },
+        {
+          "position": 21,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 22,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 23,
+          "model_token": "TEAL",
+          "ipa": "eː"
+        },
+        {
+          "position": 24,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 25,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 26,
+          "model_token": "TEAQ",
+          "ipa": "k"
+        },
+        {
+          "position": 27,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 28,
+          "model_token": "TEAQ",
+          "ipa": "k"
+        },
+        {
+          "position": 29,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 30,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 31,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 32,
+          "model_token": "TEAG",
+          "ipa": "c"
+        },
+        {
+          "position": 33,
+          "model_token": "TEAG",
+          "ipa": "c"
+        },
+        {
+          "position": 34,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 35,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 36,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 37,
+          "model_token": "TEAN",
+          "ipa": "i"
+        }
       ],
       "plots": {
-        "duration": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/duration/E3.png",
-        "pitch": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/pitch/E3.png",
-        "energy": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/energy/E3.png"
+        "duration": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/duration/T2b.png",
+        "pitch": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/pitch/T2b.png",
+        "energy": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/energy/T2b.png"
       }
     },
     {
-      "id": "E4",
-      "checkpoint_step": 12000,
-      "checkpoint_sha256": "fbf365c7c63a670d51fbd2b4e95e2dccf4597d62827e463349603af694c0a910",
-      "phone_count": 91,
+      "id": "T3",
+      "checkpoint_step": 8000,
+      "checkpoint_sha256": "93fe938dbf91cabae46e26e2da6414d92a1571a8aa568f89521ad3487f2e4fa2",
+      "phone_count": 31,
       "zero_duration_phones": 0,
-      "total_predicted_seconds": 7.5000457763671875,
+      "total_predicted_seconds": 2.04335618019104,
       "pitch_hz_range": [
-        153.2435760498047,
-        206.54771423339844
+        155.75674438476562,
+        316.3821716308594
       ],
       "energy_raw_range": [
-        6.697633743286133,
-        79.25093841552734
+        5.3403167724609375,
+        89.37185668945312
       ],
-      "phone_labels": [
-        "DH",
-        "AH0",
-        "M",
-        "IY1",
-        "T",
-        "IH0",
-        "NG",
-        "W",
-        "AH0",
-        "L",
-        "S",
-        "T",
-        "AA1",
-        "R",
-        "T",
-        "AE1",
-        "T",
-        "T",
-        "EH1",
-        "N",
-        "F",
-        "AO1",
-        "R",
-        "T",
-        "IY0",
-        "F",
-        "AY1",
-        "V",
-        "IH0",
-        "N",
-        "DH",
-        "AH0",
-        "M",
-        "AO1",
-        "R",
-        "N",
-        "IH0",
-        "NG",
-        "AO1",
-        "N",
-        "DH",
-        "AH0",
-        "T",
-        "W",
-        "EH1",
-        "L",
-        "F",
-        "TH",
-        "AH1",
-        "V",
-        "N",
-        "OW0",
-        "V",
-        "EH1",
-        "M",
-        "B",
-        "ER0",
-        "T",
-        "W",
-        "EH1",
-        "N",
-        "IY0",
-        "T",
-        "W",
-        "EH1",
-        "N",
-        "IY0",
-        "S",
-        "IH1",
-        "K",
-        "S",
-        "sp",
-        "S",
-        "OW1",
-        "AE0",
-        "N",
-        "D",
-        "AA1",
-        "R",
-        "OW0",
-        "SH",
-        "UH1",
-        "D",
-        "ER0",
-        "AY1",
-        "V",
-        "AO1",
-        "N",
-        "T",
-        "AY1",
-        "M"
+      "phone_label_mapping": [
+        {
+          "position": 1,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 2,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 3,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 4,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 5,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 6,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 7,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 8,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 9,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 10,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 11,
+          "model_token": "TEAW",
+          "ipa": "oː"
+        },
+        {
+          "position": 12,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 13,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 14,
+          "model_token": "TEBF",
+          "ipa": "ɕ"
+        },
+        {
+          "position": 15,
+          "model_token": "TEBF",
+          "ipa": "ɕ"
+        },
+        {
+          "position": 16,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 17,
+          "model_token": "TEAE",
+          "ipa": "b"
+        },
+        {
+          "position": 18,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 19,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 20,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 21,
+          "model_token": "TEBK",
+          "ipa": "ɡ"
+        },
+        {
+          "position": 22,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 23,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 24,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 25,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 26,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 27,
+          "model_token": "TEAG",
+          "ipa": "c"
+        },
+        {
+          "position": 28,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 29,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 30,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 31,
+          "model_token": "TEAN",
+          "ipa": "i"
+        }
       ],
       "plots": {
-        "duration": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/duration/E4.png",
-        "pitch": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/pitch/E4.png",
-        "energy": "/content/drive/.shortcut-targets-by-id/1jRFBdkOOUj7eOnIVGBshUAMxR_V_weJ1/FastSpeech2_Assignment/project/Results/English/variance_adaptor_plots/energy/E4.png"
+        "duration": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/duration/T3.png",
+        "pitch": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/pitch/T3.png",
+        "energy": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/energy/T3.png"
+      }
+    },
+    {
+      "id": "T4",
+      "checkpoint_step": 8000,
+      "checkpoint_sha256": "93fe938dbf91cabae46e26e2da6414d92a1571a8aa568f89521ad3487f2e4fa2",
+      "phone_count": 127,
+      "zero_duration_phones": 0,
+      "total_predicted_seconds": 8.347574234008789,
+      "pitch_hz_range": [
+        158.52658081054688,
+        301.37701416015625
+      ],
+      "energy_raw_range": [
+        6.349720001220703,
+        79.53022766113281
+      ],
+      "phone_label_mapping": [
+        {
+          "position": 1,
+          "model_token": "TEAO",
+          "ipa": "iː"
+        },
+        {
+          "position": 2,
+          "model_token": "TEBA",
+          "ipa": "s"
+        },
+        {
+          "position": 3,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 4,
+          "model_token": "TEAT",
+          "ipa": "m"
+        },
+        {
+          "position": 5,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 6,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 7,
+          "model_token": "TEAL",
+          "ipa": "eː"
+        },
+        {
+          "position": 8,
+          "model_token": "TEBF",
+          "ipa": "ɕ"
+        },
+        {
+          "position": 9,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 10,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 11,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 12,
+          "model_token": "TEAK",
+          "ipa": "e"
+        },
+        {
+          "position": 13,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 14,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 15,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 16,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 17,
+          "model_token": "TEAL",
+          "ipa": "eː"
+        },
+        {
+          "position": 18,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 19,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 20,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 21,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 22,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 23,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 24,
+          "model_token": "TEAB",
+          "ipa": "aɪ"
+        },
+        {
+          "position": 25,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 26,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 27,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 28,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 29,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 30,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 31,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 32,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 33,
+          "model_token": "TEAE",
+          "ipa": "b"
+        },
+        {
+          "position": 34,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 35,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 36,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 37,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 38,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 39,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 40,
+          "model_token": "TEAK",
+          "ipa": "e"
+        },
+        {
+          "position": 41,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 42,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 43,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 44,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 45,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 46,
+          "model_token": "TEBB",
+          "ipa": "t"
+        },
+        {
+          "position": 47,
+          "model_token": "TEAL",
+          "ipa": "eː"
+        },
+        {
+          "position": 48,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 49,
+          "model_token": "TEAO",
+          "ipa": "iː"
+        },
+        {
+          "position": 50,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 51,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 52,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 53,
+          "model_token": "TEAP",
+          "ipa": "j"
+        },
+        {
+          "position": 54,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 55,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 56,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 57,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 58,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 59,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 60,
+          "model_token": "TEBK",
+          "ipa": "ɡ"
+        },
+        {
+          "position": 61,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 62,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 63,
+          "model_token": "TEBP",
+          "ipa": "ʈ"
+        },
+        {
+          "position": 64,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 65,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 66,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 67,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 68,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 69,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 70,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 71,
+          "model_token": "TEAF",
+          "ipa": "bʰ"
+        },
+        {
+          "position": 72,
+          "model_token": "TEAB",
+          "ipa": "aɪ"
+        },
+        {
+          "position": 73,
+          "model_token": "TEAB",
+          "ipa": "aɪ"
+        },
+        {
+          "position": 74,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 75,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 76,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 77,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 78,
+          "model_token": "TEAT",
+          "ipa": "m"
+        },
+        {
+          "position": 79,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 80,
+          "model_token": "TEBO",
+          "ipa": "ʂ"
+        },
+        {
+          "position": 81,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 82,
+          "model_token": "TEAS",
+          "ipa": "l"
+        },
+        {
+          "position": 83,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 84,
+          "model_token": "TEAQ",
+          "ipa": "k"
+        },
+        {
+          "position": 85,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 86,
+          "model_token": "TEAX",
+          "ipa": "p"
+        },
+        {
+          "position": 87,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 88,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 89,
+          "model_token": "TEAZ",
+          "ipa": "r"
+        },
+        {
+          "position": 90,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 91,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 92,
+          "model_token": "TEAF",
+          "ipa": "bʰ"
+        },
+        {
+          "position": 93,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 94,
+          "model_token": "TEAT",
+          "ipa": "m"
+        },
+        {
+          "position": 95,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 96,
+          "model_token": "TEBR",
+          "ipa": "ʋ"
+        },
+        {
+          "position": 97,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 98,
+          "model_token": "TEBB",
+          "ipa": "t"
+        },
+        {
+          "position": 99,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 100,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 101,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 102,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 103,
+          "model_token": "TEBA",
+          "ipa": "s"
+        },
+        {
+          "position": 104,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 105,
+          "model_token": "TEAT",
+          "ipa": "m"
+        },
+        {
+          "position": 106,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 107,
+          "model_token": "TEAP",
+          "ipa": "j"
+        },
+        {
+          "position": 108,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 109,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 110,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 111,
+          "model_token": "TEAQ",
+          "ipa": "k"
+        },
+        {
+          "position": 112,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 113,
+          "model_token": "TEBA",
+          "ipa": "s"
+        },
+        {
+          "position": 114,
+          "model_token": "TEAN",
+          "ipa": "i"
+        },
+        {
+          "position": 115,
+          "model_token": "TEAI",
+          "ipa": "d"
+        },
+        {
+          "position": 116,
+          "model_token": "TEAJ",
+          "ipa": "dʰ"
+        },
+        {
+          "position": 117,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 118,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 119,
+          "model_token": "TEBK",
+          "ipa": "ɡ"
+        },
+        {
+          "position": 120,
+          "model_token": "TEAD",
+          "ipa": "aː"
+        },
+        {
+          "position": 121,
+          "model_token": "TEBD",
+          "ipa": "u"
+        },
+        {
+          "position": 122,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 123,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 124,
+          "model_token": "TEAA",
+          "ipa": "a"
+        },
+        {
+          "position": 125,
+          "model_token": "TEAU",
+          "ipa": "n"
+        },
+        {
+          "position": 126,
+          "model_token": "TEBG",
+          "ipa": "ɖ"
+        },
+        {
+          "position": 127,
+          "model_token": "TEAN",
+          "ipa": "i"
+        }
+      ],
+      "plots": {
+        "duration": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/duration/T4.png",
+        "pitch": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/pitch/T4.png",
+        "energy": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Results/Telugu/variance_adaptor_plots/energy/T4.png"
       }
     }
   ]
