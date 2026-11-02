@@ -1,0 +1,10 @@
+# Add to runtime requirements for the original frontend/feature extraction.
+# Historical versions, not freshly installed/validated by this review.
+pyworld==0.3.5
+tgt==1.5
+g2p-en==2.1.0
+pypinyin==0.55.0
+nltk==3.9.1
+scikit-learn==1.6.1
+# System tool: espeak-ng 1.51 (Telugu candidate pronunciations).
+# MFA 3.4.3 and kalpy 0.10.5 were used in a separate Python 3.11 environment.
