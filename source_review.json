@@ -1,0 +1,22 @@
+{
+  "original_filename": "copy_of_fastspeech20.py",
+  "original_bytes": 647995,
+  "original_lines": 21077,
+  "original_sha256": "6404b0d77a3657213ad918d1f15e7afd39abec3f97de7ed970eb43864b0ce6b8",
+  "distributed_file": "notebooks/colab_history.py",
+  "distributed_sha256": "0c2f30a5693a0b0cea0a477b6a76dc62965eee7f3c36e3bd67ed84120121272a",
+  "leading_guard_lines_added": 9,
+  "original_body_preserved_verbatim_as_utf8_text": true,
+  "syntax": "PASSED",
+  "execution_guard": "PASSED",
+  "credential_pattern_matches": {
+    "huggingface_token": 0,
+    "github_token": 0,
+    "literal_secret_assignment": 0,
+    "private_key": 0
+  },
+  "credential_scan_is_exhaustive": false,
+  "historical_workflow_executed_during_review": false,
+  "full_raw_to_training_replay_verified": false,
+  "clean_inference_success_basis": "Owner-provided Colab output; all ten frozen inputs passed with downloaded hash-verified weights."
+}
