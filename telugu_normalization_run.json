@@ -1,0 +1,32 @@
+{
+  "output_directory": "/content/fastspeech2_features/telugu_processed",
+  "splits": {
+    "train": {
+      "clips": 1877,
+      "zero_duration_positions_set_to_zero": 94
+    },
+    "validation": {
+      "clips": 357,
+      "zero_duration_positions_set_to_zero": 10
+    }
+  },
+  "conditioning_groups": 2,
+  "statistics_and_bin_bounds_fit_split": "train",
+  "validation_values_clipped": false,
+  "zero_duration_normalized_value": 0.0,
+  "raw_arrays_modified": false,
+  "stats": {
+    "pitch": [
+      -4.318241596221924,
+      9.170560836791992,
+      196.21410938531633,
+      45.4384287833272
+    ],
+    "energy": [
+      -1.3451260328292847,
+      6.730423450469971,
+      32.2614545711506,
+      23.983964042163652
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "stage": "/content/drive/MyDrive/FastSpeech2_Assignment/submission_packages/FastSpeech2_submission_20261102T185418336395Z",
+  "work_directory": "/content/fastspeech2_clean_repro_20261102T185738183401Z",
+  "python": "/content/fastspeech2_clean_repro_20261102T185738183401Z/venv/bin/python",
+  "system_site_packages": false,
+  "gpu_check": {
+    "torch": "2.11.0+cu130",
+    "cuda_build": "13.0",
+    "gpu": "Tesla T4",
+    "gpu_computation": "PASSED"
+  },
+  "setup_log": "/content/drive/MyDrive/FastSpeech2_Assignment/submission_packages/FastSpeech2_submission_20261102T185418336395Z/reproducibility/clean_environment_setup_20261102T185738183401Z.log",
+  "model_inference_tested": false,
+  "status": "ENVIRONMENT_SETUP_PASSED"
+}

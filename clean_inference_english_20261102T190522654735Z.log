@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T190522654735Z/project/English/inference.py", line 183, in <module>
+    main()
+    ~~~~^^
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T190522654735Z/project/English/inference.py", line 38, in main
+    from utils.model import get_model, get_vocoder
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T190522654735Z/repositories/English/utils/model.py", line 8, in <module>
+    from model import FastSpeech2, ScheduledOptim
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T190522654735Z/repositories/English/model/__init__.py", line 1, in <module>
+    from .fastspeech2 import FastSpeech2
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T190522654735Z/repositories/English/model/fastspeech2.py", line 9, in <module>
+    from .modules import VarianceAdaptor
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T190522654735Z/repositories/English/model/modules.py", line 12, in <module>
+    from utils.tools import get_mask_from_lengths, pad
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T190522654735Z/repositories/English/utils/tools.py", line 7, in <module>
+    import matplotlib
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages/matplotlib/__init__.py", line 1296, in <module>
+    rcParams['backend'] = os.environ.get('MPLBACKEND')
+    ~~~~~~~~^^^^^^^^^^^
+  File "/content/fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages/matplotlib/__init__.py", line 771, in __setitem__
+    raise ValueError(f"Key {key}: {ve}") from None
+ValueError: Key backend: 'module://matplotlib_inline.backend_inline' is not a valid value for backend; supported values are ['gtk3agg', 'gtk3cairo', 'gtk4agg', 'gtk4cairo', 'macosx', 'nbagg', 'notebook', 'qtagg', 'qtcairo', 'qt5agg', 'qt5cairo', 'tkagg', 'tkcairo', 'webagg', 'wx', 'wxagg', 'wxcairo', 'agg', 'cairo', 'pdf', 'pgf', 'ps', 'svg', 'template']

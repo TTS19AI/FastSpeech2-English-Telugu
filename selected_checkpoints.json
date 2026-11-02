@@ -1,0 +1,22 @@
+{
+  "English": {
+    "experiment": "original",
+    "step": 12000,
+    "checkpoint": "/content/drive/MyDrive/FastSpeech2_Assignment/project/English/checkpoints/12000.pth.tar",
+    "checkpoint_sha256": "fbf365c7c63a670d51fbd2b4e95e2dccf4597d62827e463349603af694c0a910",
+    "validation_total_loss": 2.6313,
+    "selection_basis": "Lowest observed validation total loss",
+    "user_listening_summary": "Reviewed predictions partly noisy.",
+    "assignment_test_evaluation_complete": false
+  },
+  "Telugu": {
+    "experiment": "original",
+    "step": 8000,
+    "checkpoint": "/content/drive/MyDrive/FastSpeech2_Assignment/project/Telugu/checkpoints/8000.pth.tar",
+    "checkpoint_sha256": "93fe938dbf91cabae46e26e2da6414d92a1571a8aa568f89521ad3487f2e4fa2",
+    "validation_total_loss": 2.0653,
+    "selection_basis": "Lowest observed validation total loss",
+    "user_listening_summary": "Two reviewed predictions clear and complete.",
+    "assignment_test_evaluation_complete": false
+  }
+}

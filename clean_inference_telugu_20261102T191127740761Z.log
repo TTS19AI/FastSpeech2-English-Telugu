@@ -1,0 +1,43 @@
+/content/fastspeech2_clean_repro_20261102T185738183401Z/venv/lib/python3.13/site-packages/torch/nn/utils/weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+Removing weight norm...
+{
+  "id": "T1",
+  "checkpoint": 8000,
+  "speaker": "telugu_female",
+  "duration_seconds": 4.841360544217687,
+  "wav_path": "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T191127740761Z/project/Results/Telugu/test_generated_audios/T1.wav",
+  "variance_arrays_saved": true
+}
+{
+  "id": "T2a",
+  "checkpoint": 8000,
+  "speaker": "telugu_female",
+  "duration_seconds": 2.3568253968253967,
+  "wav_path": "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T191127740761Z/project/Results/Telugu/test_generated_audios/T2a.wav",
+  "variance_arrays_saved": true
+}
+{
+  "id": "T2b",
+  "checkpoint": 8000,
+  "speaker": "telugu_female",
+  "duration_seconds": 2.6122448979591835,
+  "wav_path": "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T191127740761Z/project/Results/Telugu/test_generated_audios/T2b.wav",
+  "variance_arrays_saved": true
+}
+{
+  "id": "T3",
+  "checkpoint": 8000,
+  "speaker": "telugu_female",
+  "duration_seconds": 2.043356009070295,
+  "wav_path": "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T191127740761Z/project/Results/Telugu/test_generated_audios/T3.wav",
+  "variance_arrays_saved": true
+}
+{
+  "id": "T4",
+  "checkpoint": 8000,
+  "speaker": "telugu_female",
+  "duration_seconds": 8.347573696145124,
+  "wav_path": "/content/fastspeech2_clean_repro_20261102T185738183401Z/inference_20261102T191127740761Z/project/Results/Telugu/test_generated_audios/T4.wav",
+  "variance_arrays_saved": true
+}
